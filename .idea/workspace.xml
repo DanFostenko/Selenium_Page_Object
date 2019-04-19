@@ -14,7 +14,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -38,9 +38,12 @@
         <option value="$PROJECT_DIR$/src/main/java/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/SignUpPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainClass.java" />
-        <option value="$PROJECT_DIR$/src/main/java/MainPage.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SignUpPageTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LoginPageTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/MainClassTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/MainPageTest.java" />
       </list>
     </option>
   </component>
@@ -63,6 +66,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,11 +98,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pageobjectseleniumtest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pageobjectseleniumtest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -120,18 +130,47 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainClassTest">
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainClass" />
+  <component name="RunManager" selected="JUnit.All in pageobjectseleniumtest">
+    <configuration name="All in pageobjectseleniumtest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pageobjectseleniumtest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pageobjectseleniumtest" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainClassTest" />
+      <option name="MAIN_CLASS_NAME" value="LoginPageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pageobjectseleniumtest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainPageTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainPageTest.signInTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pageobjectseleniumtest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainPageTest" />
+      <option name="METHOD_NAME" value="signInTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SignUpPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pageobjectseleniumtest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SignUpPageTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,8 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MainClassTest" />
-        <item itemvalue="Application.MainClass" />
+        <item itemvalue="JUnit.All in pageobjectseleniumtest" />
+        <item itemvalue="JUnit.MainPageTest" />
+        <item itemvalue="JUnit.LoginPageTest" />
+        <item itemvalue="JUnit.SignUpPageTest" />
+        <item itemvalue="JUnit.MainPageTest.signInTest" />
       </list>
     </recent_temporary>
   </component>
@@ -158,23 +200,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainClassTest - 2019.04.19 at 14h 21m 08s.xml">
-      <configuration name="MainClassTest" configurationId="JUnit" />
+    <history-entry file="SignUpPageTest - 2019.04.19 at 17h 20m 24s.xml">
+      <configuration name="SignUpPageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainClassTest - 2019.04.19 at 14h 21m 38s.xml">
-      <configuration name="MainClassTest" configurationId="JUnit" />
+    <history-entry file="SignUpPageTest - 2019.04.19 at 17h 20m 40s.xml">
+      <configuration name="SignUpPageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainClassTest - 2019.04.19 at 14h 31m 15s.xml">
-      <configuration name="MainClassTest" configurationId="JUnit" />
+    <history-entry file="SignUpPageTest - 2019.04.19 at 17h 21m 01s.xml">
+      <configuration name="SignUpPageTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MainClassTest - 2019.04.19 at 14h 33m 25s.xml">
-      <configuration name="MainClassTest" configurationId="JUnit" />
+    <history-entry file="SignUpPageTest - 2019.04.19 at 17h 24m 56s.xml">
+      <configuration name="SignUpPageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SignUpPageTest - 2019.04.19 at 17h 28m 59s.xml">
+      <configuration name="SignUpPageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SignUpPageTest - 2019.04.19 at 17h 31m 18s.xml">
+      <configuration name="SignUpPageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LoginPageTest - 2019.04.19 at 17h 34m 27s.xml">
+      <configuration name="LoginPageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainPageTest - 2019.04.19 at 17h 35m 18s.xml">
+      <configuration name="MainPageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainPageTest - 2019.04.19 at 17h 37m 20s.xml">
+      <configuration name="MainPageTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_pageobjectseleniumtest - 2019.04.19 at 17h 40m 10s.xml">
+      <configuration name="All in pageobjectseleniumtest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2671141" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27114093" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -184,7 +244,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -206,10 +266,17 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_code.zip/Page Object паттерн/Page Factory/LoginPage.java" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_code.zip/Page Object паттерн/Page Factory/MainClass.java" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_code.zip/Page Object паттерн/Page Factory/MainPage.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+        <state relative-caret-position="170">
+          <caret line="10" column="87" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="87" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#163#164#0" expanded="true" />
@@ -218,55 +285,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LoginPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="289">
+          <caret line="17" column="70" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1476#1477#0" expanded="true" />
+            <element signature="e#1591#1592#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SignUpPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="209">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1743#1744#0" expanded="true" />
+            <element signature="e#1803#1804#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainClass.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/SignUpPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state>
+          <caret lean-forward="true" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
+            <element signature="e#1057#1058#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LoginPageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1109#1110#0" expanded="true" />
+            <element signature="e#1138#1139#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/MainClassTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="47" lean-forward="true" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
-          <folding>
-            <element signature="e#1568#1569#0" expanded="true" />
-            <element signature="e#1636#1637#0" expanded="true" />
-            <element signature="e#1724#1725#0" expanded="true" />
-            <element signature="e#1804#1805#0" expanded="true" />
-            <element signature="e#1837#1838#0" expanded="true" />
-            <element signature="e#1905#1906#0" expanded="true" />
-            <element signature="e#2036#2037#0" expanded="true" />
-            <element signature="e#2114#2115#0" expanded="true" />
-          </folding>
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/MainPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        <state relative-caret-position="85">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding>
+            <element signature="e#1571#1572#0" expanded="true" />
+            <element signature="e#1600#1601#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -44,19 +44,11 @@ public class MainClassTest {
     */
 
     @Test //Test annotation points to test method
-    public void method1() {
-        Assert.assertTrue("Values are not equal",1 + 1 == 2);
-    }
+    public void method1() { Assert.assertTrue("Values are not equal",1 + 1 == 2); }
     @Test //Test annotation points to test method
-    public void method2() {
-        Assert.assertEquals(20,5 + 5);
-    }
+    public void method2() { Assert.assertEquals(20,5 + 5); }
     @Test //Test annotation points to test method
-    public void method3() {
-        Assert.assertFalse("Values are equal",1 + 1 == 2);
-    }
+    public void method3() { Assert.assertFalse("Values are equal",1 + 1 == 2); }
     @Test //Test annotation points to test method
-    public void method4() {
-        Assert.assertNotEquals(20,5 + 5);
-    }
+    public void method4() { Assert.assertNotEquals(20,5 + 5); }
 }
